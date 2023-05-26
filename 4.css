@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Cedarville+Cursive&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+main {
+    display: inline;
+    justify-content: center;
+}
+
+.vintage {
+    font-family: 'Alkatra', cursive;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 40px;
+    display: flex;
+    padding: 35px;
+    
+}
+
+
+body {
+    background-color: #00ff003c;
+    overflow-x: hidden;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
+    background: #23232e;
+    height: 8vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.title {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: -webkit-linear-gradient(left, #f70202, #006eff);
+    background: linear-gradient(right, #f70202, #006eff);  
+    -webkit-background-clip: text;         
+    -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:rgb(176, 203, 255);
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+section {
+    column-count: 4;
+    column-gap: 10px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: -webkit-linear-gradient(left, #f70202, #006eff);
+    background: linear-gradient(right, #f70202, #006eff);  
+    -webkit-background-clip: text;         
+    -webkit-text-fill-color: transparent;
+}
+
+.text {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text2 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: -webkit-linear-gradient(left, #f70202, #006eff);
+    background: linear-gradient(right, #f70202, #006eff);  
+    -webkit-background-clip: text;         
+    -webkit-text-fill-color: transparent;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
+    background: #23232e;
+    height: 8vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}

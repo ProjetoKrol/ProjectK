@@ -1,0 +1,1 @@
+alert('Essa página é bem simples, mas com algumas frases que gostei e quero que você leio sabendo que veio de mim :)')
